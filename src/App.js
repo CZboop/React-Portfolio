@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Masthead from './components/Masthead';
+import Intro from './components/Intro';
+import ProjectsBox from './components/ProjectsBox';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Masthead />
+      <Intro title="About Me" content={`Hi! I'm Chaam, a passionate and versatile developer, soon to be graduating from the BNTA full stack bootcamp.
+       Confident with Python, JavaScript and Java, with experience using a range of other languages, frameworks and tools.
+       I'm interested in creating full stack applications, as well as exploring the creative uses of technology.`} />
+      <Intro title="Languages" content={"Python, Java, JavaScript, SQL, HTML, CSS"}/>
+      <Intro title="Frameworks and Tools" content={"Spring, Django, React, Git"}/>
+      <Intro title="Projects" content="Check out a few of my projects below!"/>
+      <ProjectsBox/>
     </div>
   );
 }

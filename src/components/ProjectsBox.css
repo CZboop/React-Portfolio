@@ -1,0 +1,7 @@
+#ProjectsTitle{
+    font-size: 2.5em;
+}
+.ProjectBoxContainer{
+    display: flex;
+    flex-direction: column;
+}
