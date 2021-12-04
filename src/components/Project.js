@@ -19,7 +19,7 @@ function Project(props) {
             <a href={props.link}>Github Link</a>
             </div>
             <div className="ImageDiv">
-            <img src={props.image} />
+            <img src={props.image} alt={props.alt}/>
             </div>
             
         </div>

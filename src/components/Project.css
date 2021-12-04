@@ -11,9 +11,12 @@ a:hover{
 }
 img{
     float: left;
-    padding: 2em;
-    min-width: 70%;
-    max-width: 100%;
+    display: block;
+    object-fit: scale-down;
+  max-width:100%;
+  padding: 1em;
+  width: auto;
+  height: auto;
 }
 
 h2 {
